@@ -1,0 +1,318 @@
+body{
+    background: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 15px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-default{
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.navbar-right{
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.logo{
+    width: 140px;
+    height: 80px;
+}
+
+.jumbotron{
+  background: linear-gradient(rgba(75, 53, 95, 0.70), rgba(75, 53, 95, 0.72)),
+                rgba(75, 53, 95, 0.72) url(../images/7.jpg);
+  height: 500px;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0px; 
+}  
+
+.jumbotron h2{
+  font-weight: bolder;
+  color: white;
+  padding-top: 80px;
+  line-height: 1.5em;
+}
+
+.start{
+  color: #535f72;
+}
+
+.jumbotron span{
+  color: #c42b2b;
+}
+
+
+/*Scholar*/
+.scholarship{
+  clear: right;
+  overflow: auto;
+  padding: 10px;
+  text-align: justify;
+  color: #535f72;
+
+}
+
+.scholarship img{
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+/*Mentor*/
+.mentorship{
+  clear: right;
+  overflow: auto;
+  padding-top: 20px;
+  text-align: justify;
+  color: #535f72;
+}
+
+.mentorship img{
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+
+/*Leader*/
+.leadership{
+  clear: right;
+  padding-top: 20px;
+  text-align: justify;
+  color: #535f72;
+}
+
+.leadership img{
+  float: left;
+  margin: 10px 10px 15px 15px;
+}
+
+
+/*Industrial*/
+.industrial{
+  clear: right;
+  padding-top: 20px;
+  text-align: justify;
+  color: #535f72;
+}
+
+.industrial img{
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+/*Volunteer*/
+.volunteer{
+  clear: right;
+  padding-top: 20px;
+  text-align: justify;
+  color: #535f72;
+}
+
+.volunteer img{
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+/*Scholar Management*/
+.responsive-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.offer{
+  text-align: center;
+}
+
+.funding{
+  background: ;
+  padding: 15px;
+  text-align: left;
+}
+
+.funding p{
+  color: gray;
+}
+
+.funding ul{
+  color: gray;
+}
+
+.glyphicon1{
+  color: #d69c1a;
+  display: block;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+
+.btn{
+  width: 150px;
+  height: 50px;
+  border-radius: 0px;
+  display: block;
+  margin: 0 auto;
+}
+
+section{
+  padding-top: 20px;
+}
+
+/*Page Two*/
+.jumbotron1{
+  background: linear-gradient(rgba(75, 53, 95, 0.70), rgba(75, 53, 95, 0.72)),
+                rgba(75, 53, 95, 0.72);
+  height: 200px;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0px; 
+} 
+
+.jumbotron1 h2{
+  font-weight: bolder;
+  color: white;
+  padding-top: 70px;
+  line-height: 1.5em;
+}
+
+.requirements{
+  padding-top: 15px;
+}
+
+.tab-content{
+  padding-top: 0px;
+}
+
+/*Page Three*/
+.jumbotron2{
+  background: #c9c618;
+  height: 200px;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0px; 
+}
+
+.jumbotron2 h2{
+  font-weight: bolder;
+  color: white;
+  padding-top: 70px;
+  line-height: 1.5em;
+}
+
+.topic{
+  text-align: center;
+} 
+
+.topic-img{
+  width: 400px;
+  padding: 0px;
+  display: flex;
+  align-items: left !important;
+}
+
+.img-circle{
+  height: 300px;
+}
+
+.team h4{
+  text-align: center;
+}
+
+footer{
+  padding-top: 30px;
+  padding-bottom: 0;
+  color: gray;
+  font-size: 16px;
+  background: #262819;
+  padding: 10px;
+}
+
+footer h4{
+  color: white;
+  padding-top: 10px;
+}
+
+.social{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding-bottom: 10px;
+    
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover { /* round facebook icon*/
+    background: #4060A5;
+}
+
+.social .fa-linkedin:hover { /* round linkedin icon*/
+    background: #0094BC;
+}
+
+.social .fa-instagram:hover { /* round instagram icon*/
+    background: #375989;
+}
+
+.hype{
+  color: #d60a1f;
+  text-align: center;
+  background: #409fc4;
+}
+
+.hype a{
+  color: purple;
+}
+
